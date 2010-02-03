@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">statao</locale>
+    <locale lang="de">statao</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriétés de statao</locale>
+    <locale lang="de">Eigenschaften statao</locale>
+  </entity>
+</localization>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tags extends="generic">
+  <tag label="&amp;modules.ao.bo.tags.ao-list;" icon="wlistsimple">functional_ao_ao-list</tag>
+  <tag label="&amp;modules.ao.bo.tags.ao-detail;" icon="handshake">functional_ao_ao-detail</tag>
+</tags>

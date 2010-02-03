@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/generic/persistentdocument/import/generic_binding.xml" />
+	<binding name="folderbusiness" className="ao_FolderbusinessScriptDocumentElement" />
+	<binding name="statao" className="ao_StataoScriptDocumentElement" />
+	<binding name="business" className="ao_BusinessScriptDocumentElement" />
+	<binding name="stataomedia" className="ao_StataomediaScriptDocumentElement" />
+	<binding name="foldertheme" className="ao_FolderthemeScriptDocumentElement" />
+	<binding name="ao" className="ao_AoScriptDocumentElement" />
+	<binding name="preferences" className="ao_PreferencesScriptDocumentElement" />
+	<binding name="aopreferences" className="ao_PreferencesScriptDocumentElement" />
+	<binding name="foldercompany" className="ao_FoldercompanyScriptDocumentElement" />
+	<binding name="theme" className="ao_ThemeScriptDocumentElement" />
+	<binding name="company" className="ao_CompanyScriptDocumentElement" />
+</script>

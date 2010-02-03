@@ -1,0 +1,51 @@
+<div tal:attributes="class block">  	
+	<div tal:condition="not: viewAwards" tal:omit-tag="">
+		<h2 class="title">
+			<span i18n:translate="&modules.ao.frontoffice.Offer;" tal:omit-tag="" />
+			<div change:include="module 'ao'; template 'Ao-Inc-AoCount'; type 'html'; groupByThemes groupByThemes; aoListByTheme aoListByTheme; aoList aoList" />
+		</h2>
+	  	<div change:include="module 'ao'; template 'Ao-Inc-Mininav'; type 'html'; viewAwardNoticesURL viewAwardNoticesURL; otherCount otherCount;" />	
+	</div>
+	
+	<div tal:condition="viewAwards" tal:omit-tag="">
+		<h2 class="title">
+			<span i18n:translate="&modules.ao.frontoffice.Attribution;" tal:omit-tag="" />
+			<div change:include="module 'ao'; template 'Ao-Inc-AoCount'; type 'html'; groupByThemes groupByThemes; aoListByTheme aoListByTheme; aoList aoList" />
+		</h2>
+	  	<div change:include="module 'ao'; template 'Ao-Inc-Mininav'; type 'html'; viewAoURL viewAoURL; otherCount otherCount;" />	
+	</div>
+
+	<form class="mpform" action="" method="get">
+		<label>Filtrer</label>		
+		<select name="aoParam[theme]" onchange="this.form.submit();">
+			<option value="" change:translate="&modules.ao.frontoffice.All-themes;" />
+			<span tal:repeat="theme themes" tal:omit-tag="">
+			<option tal:condition="theme/selected" tal:attributes="value theme/id" tal:content="theme/label" selected="selected" />
+			<option tal:condition="not: theme/selected" tal:attributes="value theme/id" tal:content="theme/label" />
+			</span>
+		</select>
+		<input tal:condition="viewAwards" type="hidden" name="aoParam[awards]" value="true" />
+		<input class="button" type="submit" id="ao_submit" value="OK"/>
+		<script type="text/javascript">document.getElementById('ao_submit').style.display = 'none';</script>
+	</form>
+
+	<ol class="mplist" tal:condition="groupByThemes"><!-- Group by themes -->
+		<li class="theme" tal:repeat="aoList aoListByTheme">
+			<h2 class="title"><strong tal:content="repeat/aoList/key" /></h2>
+			<ul >
+				<li tal:repeat="ao aoList">
+					<div change:include="module 'ao'; template 'Ao-Inc-AoSmallDetail'; type 'html'; ao ao" />
+				</li>
+			</ul>
+
+		</li>
+	</ol>
+	
+	<ol class="mplist" tal:condition="not: groupByThemes"><!-- Not grouped by themes -->
+		<li tal:repeat="ao aoList">
+			<div change:include="module 'ao'; template 'Ao-Inc-AoSmallDetail'; type 'html'; ao ao" />
+		</li>
+	</ol>
+	
+	<br class="cleaner" />
+</div>

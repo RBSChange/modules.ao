@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:i18n="http://phptal.motion-twin.com/i18n" xmlns:tal="http://phptal.motion-twin.com/tal" xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal">
+  <tabbox flex="1">
+    <tabs>
+      <tab i18n:attributes="label &amp;modules.ao.bo.general.tabs.General;"/>
+      <tab i18n:attributes="label &amp;modules.ao.bo.general.tabs.Optionnal;"/>
+      <tab i18n:attributes="label &amp;modules.ao.bo.general.tabs.Award-notice;"/>
+    </tabs>
+    <tabpanels flex="1">
+      <tabpanel orient="vertical">
+        <grid flex="1">
+          <columns>
+            <column/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="label"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="label"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="reference"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="reference"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="emissionDate"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="emissionDate"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="emissionTime"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="emissionTime"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="endDate"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="endDate"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="endTime"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="endTime"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="place"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="place"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="theme"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="theme"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <grid flex="1">
+          <columns>
+            <column/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="description"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="description"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="mainPieces"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="mainPieces"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="particularPieces"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="particularPieces"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <grid flex="1">
+          <columns>
+            <column/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="awardNotice"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="awardNotice"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="awardNoticePublicationDate"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="awardNoticePublicationDate"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="awardNoticePublicationTime"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="awardNoticePublicationTime"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+</layout>

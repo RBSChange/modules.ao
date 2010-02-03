@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlrewriting>
+
+	<rules>
+
+		<rule documentModel="ao" viewMode="detail" lang="fr">
+			<template>/appel-offre/$label,$id,$lang</template>
+		</rule>
+
+	</rules>
+
+</urlrewriting>

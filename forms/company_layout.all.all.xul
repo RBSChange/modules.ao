@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:i18n="http://phptal.motion-twin.com/i18n" xmlns:tal="http://phptal.motion-twin.com/tal" xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal">
+  <tabbox flex="1">
+    <tabs>
+      <tab i18n:attributes="label &amp;modules.ao.bo.general.tabs.General;"/>
+      <tab i18n:attributes="label &amp;modules.ao.bo.general.tabs.Company;"/>
+      <tab i18n:attributes="label &amp;modules.ao.bo.general.tabs.Coordinates;"/>
+      <tab i18n:attributes="label &amp;modules.ao.bo.general.tabs.Notifications;"/>
+      <tab i18n:attributes="label &amp;modules.ao.bo.general.tabs.System;"/>
+    </tabs>
+    <tabpanels flex="1">
+      <tabpanel orient="vertical">
+        <grid flex="1">
+          <columns>
+            <column/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="contactName"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="contactName"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="emailAddress"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="emailAddress"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="phoneNumber"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="phoneNumber"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="faxNumber"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="faxNumber"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <grid flex="1">
+          <columns>
+            <column/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="companyName"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="companyName"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="siretNumber"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="siretNumber"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="mainBusiness"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="mainBusiness"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="otherBusiness"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="otherBusiness"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <grid flex="1">
+          <columns>
+            <column/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="address"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="address"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="city"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="city"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="zipCode"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="zipCode"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="country"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="country"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <grid flex="1">
+          <columns>
+            <column/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="theme"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="theme"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="wantsNotificationOnAOPublication"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="wantsNotificationOnAOPublication"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="wantsNotificationOnAOUpdate"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="wantsNotificationOnAOUpdate"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <grid flex="1">
+          <columns>
+            <column/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="frontendUser"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="frontendUser"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="viewedAO"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="viewedAO"/>
+            </row>
+            <row>
+              <change:label xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" field="downloadedLinkedMedia"/>
+              <change:field xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal" name="downloadedLinkedMedia"/>
+            </row>
+          </rows>
+        </grid>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+</layout>

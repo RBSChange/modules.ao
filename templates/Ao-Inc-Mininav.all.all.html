@@ -1,0 +1,16 @@
+<ul class="mini-navigation">
+	<li>
+		<span tal:condition="item">
+			<a tal:condition="not: item/getAwardNotice" class="link" change:link="tag functional_ao_ao-list">Retour à la liste des appels d'offres</a>
+			<a tal:condition="item/getAwardNotice" class="link" change:link="tag functional_ao_ao-list; aoParam[awards] 'true'">Retour à la liste des attributions</a>
+		</span>
+		
+		<span tal:condition="viewAwardNoticesURL">
+			<a class="link" tal:attributes="href viewAwardNoticesURL"><span i18n:translate="&modules.ao.frontoffice.Seeattribution;" /> (<span tal:replace="otherCount" />)</a>
+		</span>
+		
+		<span tal:condition="viewAoURL">
+			<a class="link" tal:attributes="href viewAoURL"><span i18n:translate="&modules.ao.frontoffice.Seeoffer;" /> (<span tal:replace="otherCount" />)</a>
+		</span>
+	</li>
+</ul>

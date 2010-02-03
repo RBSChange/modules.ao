@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="ao-list">
+    <locale lang="fr">page de liste des appels d'offre</locale>
+    <locale lang="de">Auflistung der Ausschreibungen</locale>
+  </entity>
+  <entity id="ao-detail">
+    <locale lang="fr">page de détail d'un appel d'offre</locale>
+    <locale lang="de">Detailansicht einer Ausschreibung</locale>
+  </entity>
+</localization>

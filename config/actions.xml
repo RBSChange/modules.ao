@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<actions extends="generic">
+  <action name="createPreferences" label="&amp;modules.ao.bo.actions.Create-Preferences;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'preferences', 'moduleForm');]]></body>
+  </action>
+  <action name="createTheme" icon="add" label="&amp;modules.ao.bo.actions.Create-Theme;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'theme', 'moduleForm');]]></body>
+  </action>
+  <action name="createBusiness" icon="add" label="&amp;modules.ao.bo.actions.Create-Business;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'business', 'moduleForm');]]></body>
+  </action>
+  <action name="createAo" icon="add" label="&amp;modules.ao.bo.actions.Create-Ao;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'ao', 'moduleForm');]]></body>
+  </action>
+  <action name="createCompany" icon="add" label="&amp;modules.ao.bo.actions.Create-Company;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'company', 'moduleForm');]]></body>
+  </action>
+  <action name="viewAoStats" icon="chart" label="&amp;modules.ao.bo.actions.View-ao-stats;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[
+    	this.getElementById('deck').selectedIndex = 1;
+    	var id = (listWidget.getSelectedComponents()[0]).document.component.(@name=='id').toString();
+    	var url = this.getController().makeUrl('ao', 'Statistics', { {K::COMPONENT_ID_ACCESSOR}: id });
+    	this.getElementById('statsIFrame').setAttribute('src', url);
+    ]]></body>
+  </action>
+  <action name="viewAoMediaStats" icon="chart" label="&amp;modules.ao.bo.actions.View-ao-media-stats;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[
+    	this.getElementById('deck').selectedIndex = 1;
+    	var id = (listWidget.getSelectedComponents()[0]).document.component.(@name=='id').toString();
+    	var url = this.getController().makeUrl('ao', 'Statistics', { {K::COMPONENT_ID_ACCESSOR}: id, mode: 'media' });
+    	this.getElementById('statsIFrame').setAttribute('src', url);
+    ]]></body>
+  </action>
+  <action name="backToAoList" icon="nav_left_blue" label="&amp;modules.ao.bo.actions.Back-to-ao-list;">
+    <body><![CDATA[
+    	this.getElementById('deck').selectedIndex = 0;
+    	this.getElementById('statsIFrame').setAttribute('src', 'about:blank');
+    ]]></body>
+  </action>
+  <action name="exportCSV" icon="export1" label="&amp;modules.ao.bo.actions.Export-companies-csv;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[
+		var ids = listWidget.getSelectedIds();
+		window.open(this.getController().makeUrl('ao', 'Export', { {K::COMPONENT_ID_ACCESSOR}: ids[0], output: 'csv' }), 'rbs_change_modules_ao_export_window', 'width=100,height=100');
+    ]]></body>
+  </action>
+</actions>

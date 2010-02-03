@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rights>
+	<actions>
+		<document name="rootfolder" />
+		<document name="topic" />
+		<action name="GetDialogTopicTree" back-office-name="addTopic" />
+	</actions>
+
+	<roles>
+		<role name="Admin">
+			<permission name="*" />
+			<permission name="LoadPermissions.*" />
+			<permission name="SavePermissions.*" />
+			<permission name="GetPreferencesDocument" />
+			<permission name="Move.*" />
+			<permission name="GetDialogTopicTree" />
+			<permission name="Remove.topic" />
+		</role>
+
+		<role name="Writer" extend="User">
+			<permission name="Enabled" />
+			<permission name="Order" />
+			<permission name="Load.*" />
+			<permission name="Rename.*" />
+			<permission name="PutInTrash.*" />
+			<permission name="Delete.*" />
+			<permission name="Insert.*" />
+			<permission name="Update.*" />
+		</role>
+
+		<role name="Translator" extend="User">
+			<permission name="Enabled" />
+			<permission name="LoadForTranslation.*" />
+			<permission name="UpdateTranslation.*" />
+		</role>
+
+		<role name="Validator" extend="User">
+			<permission name="Enabled" />
+			<permission name="Activate.*" />
+			<permission name="Cancel.*" />
+		</role>
+
+		<role name="User">
+			<permission name="List.*" />
+		</role>
+	</roles>
+</rights>

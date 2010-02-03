@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">secteur d'activité</locale>
+    <locale lang="de">Berufsfeld</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriétés du secteur d'activité</locale>
+    <locale lang="de">Einstellungen Berufsfeld</locale>
+  </entity>
+  <entity id="label">
+    <locale lang="fr">libellé</locale>
+    <locale lang="de">Name</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">libellé de l'appel d'offre</locale>
+    <locale lang="de">Name Ausschreibung</locale>
+  </entity>
+</localization>

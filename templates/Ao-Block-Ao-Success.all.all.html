@@ -1,0 +1,68 @@
+<div class="modules-at-detail">	
+	<div change:include="module 'ao'; template 'Ao-Inc-Mininav'; type 'html'; item item;" />
+		
+	<div class="mpdetail">
+		<h3 class="title">
+			<span tal:replace="item/getLabel" />
+  			<br />
+			<small><span change:date="format 'd F Y'; value item/getEmissionDate" /></small>
+		</h3>
+		  
+		<dl class="mplist-detail">
+			<tal tal:omit-tag="" tal:condition="exists: item/getReference">
+				<dt i18n:translate="&modules.ao.document.ao.ReferenceLabel;"></dt>
+				<dd tal:content="item/getReference" />
+			</tal>
+				
+			<tal tal:omit-tag="" tal:condition="exists: item/getEmissionDate">
+				<dt i18n:translate="&modules.ao.document.ao.EmissionDateLabel;"></dt>
+				<dd>
+					<span change:date="format 'd F Y'; value item/getEmissionDate" />
+					<span tal:replace="item/getEmissionTime" />
+				</dd>
+			</tal>
+			
+			<tal tal:omit-tag="" tal:condition="exists: item/getEndDate">
+				<dt i18n:translate="&modules.ao.document.ao.EndDateLabel;"></dt>
+				<dd>
+					<span change:date="format 'd F Y'; value item/getEndDate" />
+					<span tal:replace="item/getEndTime" />
+				</dd>
+			</tal>
+
+			<tal tal:omit-tag="" tal:condition="exists: item/getPlace">
+				<dt i18n:translate="&modules.ao.document.ao.PlaceLabel;"></dt>
+				<dd tal:content="item/getPlace" />
+			</tal>
+				
+			<tal tal:omit-tag="" tal:condition="exists: item/getTheme">
+				<dt i18n:translate="&modules.ao.document.ao.ThemeLabel;"></dt>
+				<dd tal:content="item/getTheme/getLabel" />
+			</tal>
+		</dl>
+		
+		<p tal:content="item/getDescriptionAsHtml"></p>
+		
+		<p tal:condition="exists: item/getMainPieces">
+			<strong i18n:translate="&modules.ao.document.ao.MainPieces;">Pièces principales :</strong>
+			<span tal:replace="item/getMainPiecesAsHtml">tzegibze</span>
+		</p>
+		
+		<p tal:condition="exists: item/getParticularPieces">
+			<strong i18n:translate="&modules.ao.document.ao.ParticularPieces;">Pièces particulières :</strong>
+			<span tal:replace="item/getParticularPiecesAsHtml">tzegibze</span>
+		</p>
+		
+		<p tal:condition="exists: item/getAwardNotice">
+			<strong i18n:translate="&modules.ao.document.ao.AwardNotice;" />
+			<span change:download="item/getAwardNotice" />
+		</p>
+		
+		<p tal:condition="exists: item/getAwardNoticePublicationDate">
+			<strong i18n:translate="&modules.ao.document.ao.AwardNoticePublicationDate;" />
+			<span change:date="format 'd F Y'; value item/getAwardNoticePublicationDate" />
+			<span tal:replace="item/getAwardNoticePublicationDate" />
+		</p>
+		
+	</div>
+</div>

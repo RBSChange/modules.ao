@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<behaviour>
+  <event type="drop" target="modules_generic_rootfolder" flavour="listitem/component" source="modules_website_topic" actions="move"/>
+  <event type="select contextmenu" target="modules_website_topic" actions="createAo editPermissions -rename -delete remove" />
+  <event type="select contextmenu" target="modules_generic_rootfolder" actions="-openOrderChildren addTopic | editPermissions -createFolder -openOrderChildren"/>
+  <event type="select contextmenu" target="modules_ao_foldertheme" actions="createTheme -createFolder -openOrderChildren -rename -delete"/>
+  <event type="select contextmenu" target="modules_ao_folderbusiness" actions="createBusiness -createFolder -openOrderChildren -rename -delete"/>
+  <event type="select contextmenu" target="modules_ao_foldercompany" actions="createCompany -createFolder -openOrderChildren -rename -delete exportCSV"/>
+  <datasource module="ao" components="modules_website/topic,modules_ao/foldertheme,modules_ao/folderbusiness,modules_ao/foldercompany"/>
+  <columns>
+    <column ref="label" flex="5" label="Module-name" primary="true" properties="type"/>
+  </columns>
+</behaviour>

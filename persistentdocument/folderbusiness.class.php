@@ -1,0 +1,3 @@
+<?php
+class ao_persistentdocument_folderbusiness extends ao_persistentdocument_folderbusinessbase {
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<datasources>
+  <datasource
+  	type="pagecontent"
+  	label="&amp;modules.ao.bo.general.datasource.Aos;"
+  	treecomponents="modules_website/topic"
+  	listcomponents="modules_ao/ao"
+  	/>
+  <datasource
+  	type="picker"
+  	label="&amp;modules.ao.bo.general.datasource.Others;"
+  	treecomponents="modules_website/topic,modules_ao/folderbusiness,modules_ao/foldertheme"
+  	listcomponents="modules_ao/ao,modules_ao/theme,modules_ao/business"
+  	/>
+</datasources>

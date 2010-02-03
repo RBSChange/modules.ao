@@ -1,0 +1,5 @@
+<h2 class="title" tal:content="container/getLabel" />
+
+<span change:include="module 'ao'; template 'Ao-Block-AoList-Success'; type 'html'; items paginator" />
+
+<span change:paginator="paginator" />

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">thème</locale>
+    <locale lang="de">Thema</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriétés d'un thème</locale>
+    <locale lang="de">Eigenschaften Thema</locale>
+  </entity>
+  <entity id="label">
+    <locale lang="fr">libellé</locale>
+    <locale lang="de">Name</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">libellé du thème</locale>
+    <locale lang="de">Themenname</locale>
+  </entity>
+</localization>

@@ -1,0 +1,33 @@
+<deck flex="1" selectedIndex="0" anonid="deck">
+	<hbox flex="1">
+		<vbox width="250">
+			<wtoolbar id="toolbar" showpreferences="true" showhelp="true" attachment="leftTree" i18n:attributes="title &amp;modules.ao.bo.general.Module-name;" />
+			<wtree disabletoolbox="true" flex="1" id="leftTree" hideheader="true" candrop="listitem/component" />
+			<wpopup id="leftTreePopup" attachment="leftTree" />
+		</vbox>
+		<splitter collapse="before">
+			<wsplitterbutton />
+		</splitter>
+		<vbox flex="1">
+			<vbox anonid="mainBox" flex="1">
+				<wtoolbar id="mainListToolbar" attachment="mainList" />
+				<wlist disablefilter="true" flex="1" id="mainList" attachment="leftTree" candrag="true" />
+				<wurlrewritingpanel id="mainList-urlrewriting" attachment="mainList" collapsed="true" />
+				<wpopup id="mainListPopup" attachment="mainList" debug="true" />
+			</vbox>
+			<wform id="moduleForm" attachment="mainList/editcomponent leftTree/editcomponent" />
+		</vbox>
+		<splitter collapse="after">
+			<wsplitterbutton />
+		</splitter>
+		<wmultitree width="210" id="rscTree" debug="true" candrag="true" hideheader="true" i18n:attributes="title &amp;modules.generic.backoffice.ResourcesTree;" />
+	</hbox>
+	<vbox flex="1">
+		<toolbox>
+			<toolbar>
+				<toolbarbutton change:icon="nav_left_blue/small shadow" oncommand="backToAoList()" change:i18nattr="label &modules.ao.bo.actions.Back-to-ao-list;" />
+			</toolbar>
+		</toolbox>
+		<iframe anonid="statsIFrame" flex="1" src="about:blank" />
+	</vbox>
+</deck>

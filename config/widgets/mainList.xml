@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<behaviour>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_stataomedia"/>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_statao"/>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_foldertheme"/>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_foldercompany"/>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_folderbusiness"/>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_company"/>
+<!--Added by builder-->
+<event type="select contextmenu" actions="deactivated reactivate viewStats" target="modules_ao_ao">
+	<actiongroup name="viewStats" label="&amp;modules.ao.bo.actions.View-stats;" icon="chart" actions="viewAoStats viewAoMediaStats" />
+</event>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_business"/>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_theme"/>
+<!--Added by builder-->
+<event type="select contextmenu" actions="" target="modules_ao_preferences"/>
+<!--(Added by builder) components attribute value is coma separated module names (local or absolute)-->
+<datasource module="ao" components="modules_ao/ao,modules_ao/company,modules_ao/theme,modules_ao/business"/>
+
+	<columns>
+		<column ref="label" flex="7" label="Label" properties="type"/>
+	</columns>
+
+	<columns for-parent-type="modules_website_topic">
+		<column ref="label" flex="7" label="Label" properties="type"/>
+		<column ref="reference" flex="1" label="reference"/>
+		<column ref="emissionDate" flex="1" label="emissionDate"/>
+		<column ref="endDate" flex="1" label="endDate"/>
+		<column ref="awardNoticePresent" flex="1" label="AwardNoticePresent"/>
+		<column ref="awardNoticePresentValue" hidden="true"/>
+	</columns>
+
+</behaviour>

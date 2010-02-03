@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="all-themes">
+		<locale lang="fr">tous les thèmes</locale>
+		<locale lang="de">Alle Themen</locale>
+	</entity>
+
+	<entity id="offer">
+		<locale lang="fr">appels d'offre</locale>
+		<locale lang="de">Ausschreibungen</locale>
+	</entity>
+
+	<entity id="seeoffer">
+		<locale lang="fr">voir les appels d'offre en cours</locale>
+		<locale lang="de">Aktuelle Ausschreibungen ansehen</locale>
+	</entity>
+
+	<entity id="attribution">
+		<locale lang="fr">avis d'attributions</locale>
+		<locale lang="de">Vergabebescheid</locale>
+	</entity>
+
+	<entity id="seeattribution">
+		<locale lang="fr">voir les avis d'attribution</locale>
+		<locale lang="de">Vergabebescheid ansehen</locale>
+	</entity>
+
+	<entity id="ao.EndDate">
+		<locale lang="fr">date de remise</locale>
+		<locale lang="de">Abgabedatum</locale>
+	</entity>
+
+	<entity id="ao.EndTime">
+		<locale lang="fr">heure de remise</locale>
+		<locale lang="de">Abgabezeit</locale>
+	</entity>
+	
+	<entity id="ao.Place">
+		<locale lang="fr">lieu de remise</locale>
+		<locale lang="de">Abgabeort</locale>
+	</entity>
+	<entity id="error-ao-illegal-access">
+		<locale lang="fr">vous n'avez pas la permission de visualiser cet appel d'offre.</locale>
+	</entity>
+</localization>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/1.0.xsd" 
+    model-version="1.0" icon="server" has-url="false"
+    publish-on-day-change="false">
+	<properties>
+		<add name="contactName" type="String" min-occurs="1" max-occurs="1" />
+		<add name="companyName" type="String" min-occurs="1" max-occurs="1" />
+		<add name="siretNumber" type="String" min-occurs="0" max-occurs="1" />
+		<add name="emailAddress" type="String" min-occurs="1" max-occurs="1">
+			<constraints>email:true</constraints>
+		</add>
+
+		<add name="mainBusiness" type="modules_ao/business" min-occurs="0" max-occurs="1" />
+		<add name="otherBusiness" type="String" min-occurs="0" max-occurs="1" />
+
+		<add name="address" type="LongString" min-occurs="1" max-occurs="1" />
+		<add name="city" type="String" min-occurs="1" max-occurs="1" />
+		<add name="zipCode" type="String" min-occurs="1" max-occurs="1" />
+		<add name="country" type="modules_zone/country" min-occurs="1" max-occurs="1" />
+		<add name="phoneNumber" type="String" min-occurs="1" max-occurs="1" />
+		<add name="faxNumber" type="String" min-occurs="1" max-occurs="1" />
+
+		<add name="theme" type="modules_ao/theme" min-occurs="1" max-occurs="-1" />
+		<add name="wantsNotificationOnAOPublication" type="Boolean" min-occurs="1" max-occurs="1" default-value="true" />
+		<add name="wantsNotificationOnAOUpdate" type="Boolean" min-occurs="1" max-occurs="1" default-value="true" />
+
+		<add name="frontendUser" type="modules_users/frontenduser" min-occurs="1" max-occurs="1" inverse="true" />
+
+		<add name="parentFolder" type="modules_ao/foldercompany" min-occurs="0" max-occurs="1" tree-node="true" inverse="true" />
+	</properties>
+
+	<statuses default="ACTIVE" />
+
+	<form>
+		<property name="label" display="hidden" />
+		<property name="parentFolder" display="hidden" />
+		<property name="frontendUser" allow="modules_users/frontenduser,modules_users/websitefrontenduser" />
+	</form>
+</document>

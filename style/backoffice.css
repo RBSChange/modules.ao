@@ -1,0 +1,24 @@
+treechildren::-moz-tree-image(modules_ao_preferences){
+	list-style-image: url(/icons/small/handshake.png) ;
+}
+treechildren::-moz-tree-image(modules_ao_theme){
+	list-style-image: url(/icons/small/text.png) ;
+}
+treechildren::-moz-tree-image(modules_ao_business){
+	list-style-image: url(/icons/small/environment.png) ;
+}
+treechildren::-moz-tree-image(modules_ao_ao){
+	list-style-image: url(/icons/small/handshake.png) ;
+}
+treechildren::-moz-tree-image(modules_ao_company){
+	list-style-image: url(/icons/small/server.png) ;
+}
+treechildren::-moz-tree-image(modules_ao_folderbusiness){
+	list-style-image: url(/icons/small/environment.png) ;
+}
+treechildren::-moz-tree-image(modules_ao_foldercompany){
+	list-style-image: url(/icons/small/server.png) ;
+}
+treechildren::-moz-tree-image(modules_ao_foldertheme){
+	list-style-image: url(/icons/small/text.png) ;
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">appel d'offre</locale>
+    <locale lang="de">Ausschreibung</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriétés de l'appel d'offre</locale>
+    <locale lang="de">Einstellungen Ausschreibung</locale>
+  </entity>
+  <entity id="author">
+    <locale lang="fr">auteur</locale>
+    <locale lang="de">Autor</locale>
+  </entity>
+  <entity id="author-help">
+    <locale lang="fr">auteur de l'appel d'offre</locale>
+    <locale lang="de">Autor der Ausschreibung</locale>
+  </entity>
+  <entity id="creationdate">
+    <locale lang="fr">date de création</locale>
+    <locale lang="de">Erstellungsdatum</locale>
+  </entity>
+  <entity id="creationdate-help">
+    <locale lang="fr">date de création</locale>
+    <locale lang="de">Erstellungsdatum</locale>
+  </entity>
+  <entity id="modificationdate">
+    <locale lang="fr">date de modification</locale>
+    <locale lang="de">Änderungsdatum</locale>
+  </entity>
+  <entity id="modificationdate-help">
+    <locale lang="fr">date de modification</locale>
+    <locale lang="de">Änderungsdatum</locale>
+  </entity>
+  <entity id="publicationstatus">
+    <locale lang="fr">statut de publication</locale>
+    <locale lang="de">Veröffentlichungsstatus</locale>
+  </entity>
+  <entity id="publicationstatus-help">
+    <locale lang="fr">statut de publication</locale>
+    <locale lang="de">Veröffentlichungsstatus</locale>
+  </entity>
+  <entity id="lang">
+    <locale lang="fr">lang</locale>
+    <locale lang="de">Sprache</locale>
+  </entity>
+  <entity id="lang-help">
+    <locale lang="fr">lang-help</locale>
+    <locale lang="de">Hilfe Sprache</locale>
+  </entity>
+  <entity id="startpublicationdate">
+    <locale lang="fr">date de début de publication</locale>
+    <locale lang="de">Anfagsdatum Veröffentlichung</locale>
+  </entity>
+  <entity id="startpublicationdate-help">
+    <locale lang="fr">date de début de publication</locale>
+    <locale lang="de">Anfagsdatum Veröffentlichung</locale>
+  </entity>
+  <entity id="endpublicationdate">
+    <locale lang="fr">date de fin de publication</locale>
+    <locale lang="de">Enddatum Veröffentlichung</locale>
+  </entity>
+  <entity id="endpublicationdate-help">
+    <locale lang="fr">date de fin de publication</locale>
+    <locale lang="de">Enddatum Veröffentlichung</locale>
+  </entity>
+  <entity id="label">
+    <locale lang="fr">libellé</locale>
+    <locale lang="de">Name</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">libellé de l'appel d'offre</locale>
+    <locale lang="de">Name Ausschreibung</locale>
+  </entity>
+  <entity id="reference">
+    <locale lang="fr">référence</locale>
+    <locale lang="de">Referenz</locale>
+  </entity>
+  <entity id="reference-help">
+    <locale lang="fr">référence interne</locale>
+    <locale lang="de">interne Referenz</locale>
+  </entity>
+  <entity id="description">
+    <locale lang="fr">description</locale>
+    <locale lang="de">Beschreibung</locale>
+  </entity>
+  <entity id="description-help">
+    <locale lang="fr">description de l'appel d'offre</locale>
+    <locale lang="de">Beschreibung der Ausschreibung</locale>
+  </entity>
+  <entity id="emissionDate">
+    <locale lang="fr">date d'émission</locale>
+    <locale lang="de">Aussendungsdatum</locale>
+  </entity>
+  <entity id="emissionDate-help">
+    <locale lang="fr">date d'émission</locale>
+    <locale lang="de">Aussendungsdatum</locale>
+  </entity>
+  <entity id="emissionTime">
+    <locale lang="fr">heure d'émission</locale>
+    <locale lang="de">Aussendungszeit</locale>
+  </entity>
+  <entity id="emissionTime-help">
+    <locale lang="fr">heure d'émission</locale>
+    <locale lang="de">Aussendungszeit</locale>
+  </entity>
+  <entity id="endDate">
+    <locale lang="fr">date de remise</locale>
+    <locale lang="de">Abgabedatum</locale>
+  </entity>
+  <entity id="endDate-help">
+    <locale lang="fr">date de remise</locale>
+    <locale lang="de">Abgabedatum</locale>
+  </entity>
+  <entity id="endTime">
+    <locale lang="fr">heure de remise</locale>
+    <locale lang="de">Abgabezeit</locale>
+  </entity>
+  <entity id="endTime-help">
+    <locale lang="fr">heure de remise</locale>
+    <locale lang="de">Abgabezeit</locale>
+  </entity>
+  <entity id="place">
+    <locale lang="fr">lieu de remise</locale>
+    <locale lang="de">Abgabeort</locale>
+  </entity>
+  <entity id="place-help">
+    <locale lang="fr">lieu de remise</locale>
+    <locale lang="de">Abgabeort</locale>
+  </entity>
+  <entity id="mainPieces">
+    <locale lang="fr">pièces principales</locale>
+    <locale lang="de">Haupt Aktenstücke</locale>
+  </entity>
+  <entity id="mainPieces-help">
+    <locale lang="fr">pièces principales constituant l'appel d'offre</locale>
+    <locale lang="de">Haupt Aktenstücke der Ausschreibung</locale>
+  </entity>
+  <entity id="particularPieces">
+    <locale lang="fr">pièces particulières</locale>
+    <locale lang="de">besondere Aktenstücke</locale>
+  </entity>
+  <entity id="particularPieces-help">
+    <locale lang="fr">pièces particulières constituant l'appel d'offre</locale>
+    <locale lang="de">besondere Aktenstücke der Ausschreibung</locale>
+  </entity>
+  <entity id="theme">
+    <locale lang="fr">thème</locale>
+    <locale lang="de">Thema</locale>
+  </entity>
+  <entity id="theme-help">
+    <locale lang="fr">thème : à choisir depuis l'arborescence des thèmes</locale>
+    <locale lang="de">Thema: aus der Themenbaumgliederung auszuwählen</locale>
+  </entity>
+  <entity id="awardNotice">
+    <locale lang="fr">avis d'attribution</locale>
+    <locale lang="de">Vergabebescheid</locale>
+  </entity>
+  <entity id="awardNotice-help">
+    <locale lang="fr">avis d'attribution : document à choisir dans l'arborescence du module Mediathèque</locale>
+    <locale lang="de">Vergabebescheid: aus der Baumbliederung des Moduls Mediathek auszuwählendes Dokument</locale>
+  </entity>
+  <entity id="awardNoticePublicationDate">
+    <locale lang="fr">date de l'avis d'attribution</locale>
+    <locale lang="de">Datum Vergabebescheid</locale>
+  </entity>
+  <entity id="awardNoticePublicationDate-help">
+    <locale lang="fr">date de publication de l'avis d'attribution</locale>
+    <locale lang="de">Veröffentlichungsdatum Vergabebescheid</locale>
+  </entity>
+  <entity id="awardNoticePublicationTime">
+    <locale lang="fr">heure de l'avis d'attribution</locale>
+    <locale lang="de">Uhrzeiteit Vergabebescheid</locale>
+  </entity>
+  <entity id="awardNoticePublicationTime-help">
+    <locale lang="fr">heure de l'avis d'attribution</locale>
+    <locale lang="de">Uhrzeiteit Vergabebescheid</locale>
+  </entity>
+  <entity id="correctionid">
+    <locale lang="fr">correctionid</locale>
+    <locale lang="de">KorrekturID</locale>
+  </entity>
+  <entity id="correctionid-help">
+    <locale lang="fr">correctionid-help</locale>
+    <locale lang="de">KorrekturIDhilfe</locale>
+  </entity>
+  <entity id="correctionofid">
+    <locale lang="fr">correctionofid</locale>
+    <locale lang="de">ID Korrektur</locale>
+  </entity>
+  <entity id="correctionofid-help">
+    <locale lang="fr">correctionofid-help</locale>
+    <locale lang="de">ID Korrekturhilfe</locale>
+  </entity>
+</localization>

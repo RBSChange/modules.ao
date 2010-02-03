@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/list/persistentdocument/import/list_binding.xml" />
+	<binding fileName="modules/notification/persistentdocument/import/notification_binding.xml" />
+	<binding fileName="modules/form/persistentdocument/import/form_binding.xml" />
+	<binding fileName="modules/users/persistentdocument/import/users_binding.xml" />
+	<binding fileName="modules/ao/persistentdocument/import/ao_binding.xml" />
+
+	<rootfolder module="preferences">
+		<aopreferences />
+	</rootfolder>
+	
+	<rootfolder module="ao">
+		<foldertheme label="Thèmes">
+			<tag name="default_ao_theme_folder" />
+		</foldertheme>
+		<folderbusiness label="Secteurs d'activité">
+			<tag name="default_ao_business_folder" />
+		</folderbusiness>		
+		<foldercompany label="Entreprises">
+			<tag name="default_ao_company_folder" />
+		</foldercompany>
+	</rootfolder>
+	
+	<systemfolder module="list" relatedmodule="ao">
+		<dynamiclist id="l_business" listid="modules_ao/business"
+			label="Secteurs d'activité" description="Liste des secteurs d'activités pour le module Marchés publics">
+		</dynamiclist>
+
+		<dynamiclist id="l_countries" listid="modules_ao/countries"
+			label="Pays" description="Liste des pays">
+		</dynamiclist>
+
+		<dynamiclist id="l_theme" listid="modules_ao/themes"
+			label="Thèmes" description="Liste des thèmes">
+		</dynamiclist>
+	</systemfolder>
+
+
+	
+	<systemfolder module="notification" relatedmodule="ao">
+			<notification
+				label="Nouvel appel d'offre publié"
+				codename="modules_ao/notificationPublishedAO"
+				
+				availableparameters="{ao-label}, {ao-label-reference}, {ao-reference}, {ao-description}, {ao-emissionDate}, {ao-endDate}, {ao-place}, {ao-themes}, {company-name}, {website-url}, {ao-url}"
+				subject="Nouvel appel d'offre publié sur le site {company-name} : {ao-label-reference}"
+				header="&lt;strong&gt;Bonjour,&lt;/strong&gt;"
+				body="&lt;p&gt;
+	L'appel d'offre suivant a été publié sur le site &lt;strong&gt;{company-name}&lt;/strong&gt; :
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;{ao-label}&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;Référence : {ao-reference}&lt;/li&gt;
+	&lt;li&gt;Thèmes : {ao-themes}&lt;/li&gt;
+	&lt;li&gt;Date d'émission : {ao-emissionDate}&lt;/li&gt;
+	&lt;li&gt;Date de remise : {ao-endDate}&lt;/li&gt;
+	&lt;li&gt;Lieu de remise : {ao-place}&lt;/li&gt;
+	&lt;li&gt;{ao-description}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+L'appel d'offre peut être consulté à l'adresse suivante :&lt;br /&gt;
+{ao-url}
+&lt;/p&gt;" 
+				footer="&lt;p&gt;&lt;strong&gt;Nous vous remercions de l'intérêt que vous portez à notre site internet.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;L'équipe {company-name}.&lt;/p&gt;"
+				senderUsername="appel-offre" />	
+				
+				
+			<notification
+				label="Appel d'offre mis à jour"
+				codename="modules_ao/notificationUpdatedAO"
+				
+				availableparameters="{ao-label}, {ao-label-reference}, {ao-reference}, {ao-description}, {ao-emissionDate}, {ao-endDate}, {ao-place}, {ao-themes}, {company-name}, {website-url}, {ao-url}"
+				subject="L'appel d'offre {ao-label-reference} a été mis à jour sur le site {company-name}"
+				header="&lt;strong&gt;Bonjour,&lt;/strong&gt;"
+				body="&lt;p&gt;
+	L'appel d'offre suivant a été mis à jour sur le site &lt;strong&gt;{company-name}&lt;/strong&gt; :
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;{ao-label}&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;Référence : {ao-reference}&lt;/li&gt;
+	&lt;li&gt;Thèmes : {ao-themes}&lt;/li&gt;
+	&lt;li&gt;Date d'émission : {ao-emissionDate}&lt;/li&gt;
+	&lt;li&gt;Date de remise : {ao-endDate}&lt;/li&gt;
+	&lt;li&gt;Lieu de remise : {ao-place}&lt;/li&gt;
+	&lt;li&gt;{ao-description}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+L'appel d'offre peut être consulté à l'adresse suivante :&lt;br /&gt;
+{ao-url}
+&lt;/p&gt;" 
+				footer="&lt;p&gt;&lt;strong&gt;Nous vous remercions de l'intérêt que vous portez à notre site internet.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;L'équipe {company-name}.&lt;/p&gt;"
+				senderUsername="appel-offre" />	
+	</systemfolder>
+	
+	<systemfolder module="form" relatedmodule="ao">
+			<form formid="modules_ao/createCompany" label="Formulaire de création d'une entreprise" description="Formulaire de création d'une entreprise"
+				submitButton="Valider" confirmMessage="Nous avons bien reçu votre demande. Elle sera traitée dans les meilleurs délais."
+				markup="default" useBackLink="true" messageSendingType="0" useCaptcha="true">
+				
+				<fieldhidden fieldName="usebacklink" label="Rediger sur la page d'origine" />
+				
+				<fieldtext fieldName="contactName" label="Nom du contact" 
+					required="true" multiline="false" cols="50" maxlength="255"
+					validators="blank:false;maxSize:255" />	
+					
+				<fieldtext fieldName="companyName" label="Société" 
+					required="true" multiline="false" cols="50" maxlength="255"
+					validators="blank:false;maxSize:255" />	
+					
+				<fieldtext fieldName="siretNumber" label="Numéro SIRET" 
+					required="false" multiline="false" cols="50" maxlength="255"
+					validators="maxSize:255" />	
+					
+				<fieldtext fieldName="emailAddress" label="Adresse e-mail" 
+					required="true" multiline="false" cols="50" maxlength="255"
+					validators="blank:false;maxSize:255;minSize:0;email:true" />
+					
+				<fieldlist fieldName="mainBusiness" label="Secteur d'activité" display="list" 
+					required="true" dataSource-refid="l_business" multiple="false"/>
+					
+				<fieldtext fieldName="otherBusiness" label="Autre activité" 
+					required="false" multiline="false" cols="50" maxlength="255"
+					validators="maxSize:255" />
+
+				<fieldtext fieldName="address" label="Adresse" 
+					required="true" multiline="true" cols="50" rows="3" maxlength="255"
+					validators="blank:false;maxSize:255" />	
+					
+				<fieldtext fieldName="zipCode" label="Code postal" 
+					required="true" multiline="false" cols="10" maxlength="10"
+					validators="blank:false;maxSize:10" />	
+					
+				<fieldtext fieldName="city" label="Ville" 
+					required="true" multiline="false" cols="50" maxlength="255"
+					validators="blank:false;maxSize:255" />	
+					
+				<fieldlist fieldName="country" label="Pays" display="list" 
+					required="true" dataSource-refid="l_countries" multiple="false"/>	
+					
+				<fieldtext fieldName="phoneNumber" label="Numéro de téléphone" 
+					required="true" multiline="false" cols="50" maxlength="255"
+					validators="blank:false;maxSize:255" />		
+					
+				<fieldtext fieldName="faxNumber" label="Numéro de fax" 
+					required="true" multiline="false" cols="50" maxlength="255"
+					validators="blank:false;maxSize:255" />	
+
+				<fieldlist fieldName="theme" label="Thèmes choisis" display="list" 
+					required="true" dataSource-refid="l_theme" multiple="true"/>	
+					
+				<fieldboolean fieldName="wantsNotificationOnAOPublication" label="Notification lors de la publication d'un nouvel appel d'offre" 
+					required="true" truelabel="Oui" falselabel="Non" display="list"/>	
+					
+				<fieldboolean fieldName="wantsNotificationOnAOUpdate" label="Notification lors de la modification d'un appel d'offre consulté" 
+					required="true" truelabel="Oui" falselabel="Non" display="list"/>		
+					
+				<fieldpassword fieldName="password" label="Mot de passe"
+					required="true" validators="blank:false;maxSize:50" />	
+					
+				<fieldpassword fieldName="passwordConfirm" label="Confirmer le mot de passe"
+					required="true" validators="blank:false;maxSize:50" />					
+			</form>	
+	</systemfolder>
+	
+	<rootfolder module="users">		
+		<frontendgroup label="Entreprises consultant les appels d'offre" 
+			description="Entreprises consultant les appels d'offre">
+			<tag name="default_ao_frontend_group" />
+		</frontendgroup>
+	</rootfolder>
+</script>

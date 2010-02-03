@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/1.0.xsd" 
+    model-version="1.0" publish-on-day-change="true" use-correction="true" icon="handshake" indexable="true">
+	<properties>
+		<add name="label" type="LongString" min-occurs="1" max-occurs="1" localized="true" />
+		<add name="reference" type="String" min-occurs="0" max-occurs="1" />
+		<add name="description" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true" />
+		<add name="emissionDate" type="DateTime" min-occurs="1" max-occurs="1" />
+		<add name="emissionTime" type="String" min-occurs="0" max-occurs="1" />
+		<add name="endDate" type="DateTime" min-occurs="1" max-occurs="1" />
+		<add name="endTime" type="String" min-occurs="0" max-occurs="1" />
+		<add name="place" type="LongString" min-occurs="1" max-occurs="1" />
+		<add name="mainPieces" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true" />
+		<add name="particularPieces" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true" />
+		<add name="theme" type="modules_ao/theme" min-occurs="0" max-occurs="1" inverse="true" />
+		<add name="awardNotice" type="modules_media/media" min-occurs="0" max-occurs="1" />
+		<add name="awardNoticePublicationDate" type="DateTime" min-occurs="0" max-occurs="1" />
+		<add name="awardNoticePublicationTime" type="String" min-occurs="0" max-occurs="1" />
+		<add name="publishedNotificationSent" type="Boolean" min-occurs="1" max-occurs="1" default-value="false" />
+		<add name="linkedMedia" type="modules_media/media" min-occurs="0" max-occurs="-1" />
+	</properties>
+	
+	<statuses default="DRAFT"/>
+	
+	<form>
+		<property name="description" compact="true" />
+		<property name="mainPieces" compact="true" />
+		<property name="particularPieces" compact="true" />
+		<property name="theme" width="320px" />
+		<property name="awardNotice" width="320px" />
+		<property name="endDate" enddate="true" />
+		<property name="publishedNotificationSent" display="hidden" />
+		<property name="linkedMedia" display="hidden" />
+	</form>
+</document>

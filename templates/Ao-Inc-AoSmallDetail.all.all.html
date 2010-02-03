@@ -1,0 +1,27 @@
+<h3 class="title">
+	<a change:link="document ao" tal:content="ao/getLabel">Lorem ipsum dolor sit amet</a>
+	<br />
+	<small><span change:date="format 'd F Y'; value ao/getEmissionDate" /></small>
+</h3>
+<dl class="mplist-detail">
+	<dt i18n:translate="&modules.ao.document.ao.ReferenceLabel;">Référence :</dt>
+		<dd tal:content="ao/getReference" />
+		
+	<dt i18n:translate="&modules.ao.document.ao.EmissiondateLabel;">Date d'émission :</dt>
+		<dd>
+			<span change:date="format 'd F Y'; value ao/getEmissionDate" />
+			<span tal:replace="ao/getEmissionTime" />
+		</dd>	
+
+	<dt i18n:translate="&modules.ao.document.ao.EndDateLabel;">Date limite de réception :</dt>
+		<dd>
+			<span change:date="format 'd F Y'; value ao/getEndDate" />
+			<span tal:replace="ao/getEndTime" />
+		</dd>
+
+	<dt tal:condition="ao/getPlace" i18n:translate="&modules.ao.document.ao.PlaceLabel;">Lieu de remise :</dt>
+		<dd>
+			<span tal:replace="ao/getPlace" />
+		</dd>
+</dl>
+<p tal:content="ao/getDescriptionAsHtml" />

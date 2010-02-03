@@ -1,0 +1,6 @@
+<span tal:condition="groupByThemes">
+	(<span tal:replace="php: count(aoListByTheme,1) - count(aoListByTheme)" />)
+</span>
+<span tal:condition="not: groupByThemes">
+	(<span tal:replace="php: count(aoList)" />)
+</span>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="date">
+    <locale lang="fr">date de la consultation</locale>
+    <locale lang="de">Konsultationsdatum</locale>
+  </entity>
+  <entity id="company">
+    <locale lang="fr">entreprise</locale>
+    <locale lang="de">Firma</locale>
+  </entity>
+  <entity id="contact">
+    <locale lang="fr">contact</locale>
+    <locale lang="de">Kontakt</locale>
+  </entity>
+  <entity id="statistics-media-title">
+    <locale lang="fr">statistiques de téléchargement des documents de l'appel d'offre</locale>
+    <locale lang="de">Downloadstatistiken der Ausschreibungsdokumente</locale>
+  </entity>
+  <entity id="statistics-ao-title">
+    <locale lang="fr">statistiques de visualisation de l'appel d'offre</locale>
+    <locale lang="de">Anzeigestatistiken der Ausschreibung</locale>
+  </entity>
+</localization>

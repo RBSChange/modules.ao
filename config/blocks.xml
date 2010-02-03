@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<blocks>
+	<block
+		type="modules_ao_aoContextuallist"
+		display="sortby: emissionDate"
+		icon="wlistsimple"
+		label="&amp;modules.ao.bo.blocks.aoContextualList;" />
+	<block
+		type="modules_ao_ao"
+		icon="handshake"
+		label="&amp;modules.ao.bo.blocks.aoDetail;" />
+	<block
+		type="modules_ao_createCompany"
+		icon="server_new"
+		label="&amp;modules.ao.bo.blocks.Create-company-form;" />
+</blocks>

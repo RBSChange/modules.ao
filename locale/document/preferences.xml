@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">préférence</locale>
+    <locale lang="de">Präferenz</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">préférences du module Marchés Publics</locale>
+    <locale lang="de">Präferenzen des Moduls öffentliche Aufträge</locale>
+  </entity>
+  <entity id="authRequiredToViewAoDetail">
+    <locale lang="fr">authentification requise</locale>
+    <locale lang="de">Authentifizierung erforderlich</locale>
+  </entity>
+  <entity id="authRequiredToViewAoDetail-help">
+    <locale lang="fr">authentification requise pour visualiser le détail des appels d'offre</locale>
+    <locale lang="de">Authentifizierung erforderlich um das Detail der Ausschreibungen anzuzeigen</locale>
+  </entity>
+  <entity id="requiredForms">
+    <locale lang="fr">formulaires obligatoires</locale>
+    <locale lang="de">Pflichtformulare</locale>
+  </entity>
+  <entity id="requiredForms-help">
+    <locale lang="fr">listes des formulaires obligatoires</locale>
+    <locale lang="de">Auflistung der Pflichtformulare</locale>
+  </entity>
+</localization>
