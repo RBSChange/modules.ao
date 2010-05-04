@@ -9,7 +9,7 @@ class ao_BlockCreateCompanySuccessView extends block_BlockView
     {
     	$this->setTemplateName('Ao-Block-CreateCompany-Input', K::HTML);
 
-  		$form = form_FormService::getInstance()->getFormByFormId('modules_ao/createCompany');
+  		$form = form_FormService::getInstance()->getByFormId('modules_ao/createCompany');
 		$form->setSaveResponse(false);
 
 		$subBlock = $this->getNewBlockInstance()
