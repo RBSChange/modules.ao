@@ -62,8 +62,7 @@
 L'appel d'offre peut être consulté à l'adresse suivante :&lt;br /&gt;
 {ao-url}
 &lt;/p&gt;" 
-				footer="&lt;p&gt;&lt;strong&gt;Nous vous remercions de l'intérêt que vous portez à notre site internet.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;L'équipe {company-name}.&lt;/p&gt;"
-				senderUsername="appel-offre" />	
+				footer="&lt;p&gt;&lt;strong&gt;Nous vous remercions de l'intérêt que vous portez à notre site internet.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;L'équipe {company-name}.&lt;/p&gt;" />	
 				
 				
 			<notification
@@ -89,8 +88,7 @@ L'appel d'offre peut être consulté à l'adresse suivante :&lt;br /&gt;
 L'appel d'offre peut être consulté à l'adresse suivante :&lt;br /&gt;
 {ao-url}
 &lt;/p&gt;" 
-				footer="&lt;p&gt;&lt;strong&gt;Nous vous remercions de l'intérêt que vous portez à notre site internet.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;L'équipe {company-name}.&lt;/p&gt;"
-				senderUsername="appel-offre" />	
+				footer="&lt;p&gt;&lt;strong&gt;Nous vous remercions de l'intérêt que vous portez à notre site internet.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;L'équipe {company-name}.&lt;/p&gt;" />	
 	</systemfolder>
 	
 	<systemfolder module="form" relatedmodule="ao">
