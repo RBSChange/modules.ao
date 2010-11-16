@@ -19,7 +19,7 @@ class ao_BlockTopicAction extends block_BlockAction
 		$nbItemPerPage = 10;
 
 		// Set the paginator
-		$paginator = new paginator_Paginator('ao', $request->getParameter(paginator_Paginator::REQUEST_PARAMETER_NAME, 1), $items, $nbItemPerPage);
+		$paginator = new paginator_Paginator('ao', $request->getParameter(paginator_Paginator::PAGEINDEX_PARAMETER_NAME, 1), $items, $nbItemPerPage);
 		$this->setParameter('paginator', $paginator);
 
 		return block_BlockView::SUCCESS;
