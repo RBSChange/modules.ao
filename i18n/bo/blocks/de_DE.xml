@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.bo.blocks" lcid="de_DE">
+  <key id="aocontextuallist">Liste der aktuellen Ausschreibungen</key>
+  <key id="aodetail">Detail einer Ausschreibung</key>
+  <key id="create-company-form">Einschreibungsformular einer Firma</key>
+  <key id="sort-by-emission-date">nach Abgabedatum sortieren (vom Aktuellsten zum Ältesten)</key>
+  <key id="sort-by-reference">nach Referenz sortieren (alphabetisch)</key>
+  <key id="group-by-themes">nach Themen gruppieren</key>
+</i18n>

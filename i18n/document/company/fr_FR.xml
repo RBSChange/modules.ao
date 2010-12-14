@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.document.company" lcid="fr_FR">
+  <key id="document-name">entreprise</key>
+  <key id="edition-form-title">propriétés d'une entreprise</key>
+  <key id="label">libellé</key>
+  <key id="label-help">libellé</key>
+  <key id="contactname">nom du contact</key>
+  <key id="contactname-help">nom du contact dans l'entreprise</key>
+  <key id="companyname">nom de l'entreprise</key>
+  <key id="companyname-help">nom de l'entreprise</key>
+  <key id="siretnumber">numéro SIRET</key>
+  <key id="siretnumber-help">numéro SIRET de l'entreprise</key>
+  <key id="emailaddress">adresse e-mail</key>
+  <key id="emailaddress-help">adresse e-mail du contact</key>
+  <key id="mainbusiness">secteur d'activité</key>
+  <key id="mainbusiness-help">secteur d'activité de l'entreprise</key>
+  <key id="otherbusiness">autre secteur d'activité</key>
+  <key id="otherbusiness-help">autre secteur d'activité de l'entreprise</key>
+  <key id="address">adresse postale</key>
+  <key id="address-help">adresse postale</key>
+  <key id="city">ville</key>
+  <key id="city-help">ville</key>
+  <key id="zipcode">code postal</key>
+  <key id="zipcode-help">code postal</key>
+  <key id="country">pays</key>
+  <key id="country-help">pays</key>
+  <key id="phonenumber">numéro de téléphone</key>
+  <key id="phonenumber-help">numéro de téléphone</key>
+  <key id="faxnumber">numéro de fax</key>
+  <key id="faxnumber-help">numéro de fax</key>
+  <key id="theme">thèmes</key>
+  <key id="theme-help">thèmes choisis pour les notifications de nouveaux appels d'offre</key>
+  <key id="wantsnotificationonaopublication">notification de nouveaux appels d'offre</key>
+  <key id="wantsnotificationonaopublication-help">notification de nouveaux appels d'offre</key>
+  <key id="wantsnotificationonaoupdate">notification de mise à jour d'appels d'offre</key>
+  <key id="wantsnotificationonaoupdate-help">notification de mise à jour d'appels d'offre déjà consultés</key>
+  <key id="frontenduser">compte utilisateur</key>
+  <key id="frontenduser-help">compte utilisateur</key>
+  <key id="viewedao">appels d'offre consultés</key>
+  <key id="viewedao-help">appels d'offre consultés</key>
+</i18n>

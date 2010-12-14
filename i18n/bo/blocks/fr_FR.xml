@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.bo.blocks" lcid="fr_FR">
+  <key id="aocontextuallist">liste des appels d'offre en cours</key>
+  <key id="aodetail">détail d'un appel d'offre</key>
+  <key id="create-company-form">formulaire d'inscription d'une entreprise</key>
+  <key id="sort-by-emission-date">trier par Date d'emission (des plus récents aux plus anciens)</key>
+  <key id="sort-by-reference">trier par Référence (ordre alphabétique)</key>
+  <key id="group-by-themes">grouper par thèmes</key>
+</i18n>

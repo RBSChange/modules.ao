@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.document.company" lcid="de_DE">
+  <key id="document-name">Firma</key>
+  <key id="edition-form-title">Einstellungen einer Firma</key>
+  <key id="label">Name</key>
+  <key id="label-help">Name</key>
+  <key id="contactname">Kontaktname</key>
+  <key id="contactname-help">Kontaktname in der Firma</key>
+  <key id="companyname">Firmenname</key>
+  <key id="companyname-help">Firmenname</key>
+  <key id="siretnumber">Handelsregisternummer</key>
+  <key id="siretnumber-help">Handelsregisternummer der Firma</key>
+  <key id="emailaddress">Mail Adresse</key>
+  <key id="emailaddress-help">Mail Adresse des Kontakts</key>
+  <key id="mainbusiness">Berufsfeld</key>
+  <key id="mainbusiness-help">Berufsfeld der Firma</key>
+  <key id="otherbusiness">anderes Berufsfeld</key>
+  <key id="otherbusiness-help">anderes Berufsfeld der Firma</key>
+  <key id="address">Postanschrift</key>
+  <key id="address-help">Postanschrift</key>
+  <key id="city">Ort</key>
+  <key id="city-help">Ort</key>
+  <key id="zipcode">Postleitzahl</key>
+  <key id="zipcode-help">Postleitzahl</key>
+  <key id="country">Land</key>
+  <key id="country-help">Land</key>
+  <key id="phonenumber">Telefonnummer</key>
+  <key id="phonenumber-help">Telefonnummer</key>
+  <key id="faxnumber">Faxnummer</key>
+  <key id="faxnumber-help">Faxnummer</key>
+  <key id="theme">Themen</key>
+  <key id="theme-help">ausgewählte Themen für die Benachrichtigungen neuer Ausschreibungen</key>
+  <key id="wantsnotificationonaopublication">Benachrichtigungen neuer Ausschreibungen</key>
+  <key id="wantsnotificationonaopublication-help">Benachrichtigungen neuer Ausschreibungen</key>
+  <key id="wantsnotificationonaoupdate">Benachrichtigung Aktualisierung der Ausschreibungen</key>
+  <key id="wantsnotificationonaoupdate-help">Benachrichtigung Aktualisierung konsultierter Ausschreibungen</key>
+  <key id="frontenduser">Benutzerkonto</key>
+  <key id="frontenduser-help">Benutzerkonto</key>
+  <key id="viewedao">konsultierte Ausschreibungen</key>
+  <key id="viewedao-help">konsultierte Ausschreibungen</key>
+</i18n>

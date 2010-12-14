@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.document.preferences" lcid="de_DE">
+  <key id="document-name">Präferenz</key>
+  <key id="edition-form-title">Präferenzen des Moduls öffentliche Aufträge</key>
+  <key id="authrequiredtoviewaodetail">Authentifizierung erforderlich</key>
+  <key id="authrequiredtoviewaodetail-help">Authentifizierung erforderlich um das Detail der Ausschreibungen anzuzeigen</key>
+  <key id="requiredforms">Pflichtformulare</key>
+  <key id="requiredforms-help">Auflistung der Pflichtformulare</key>
+</i18n>

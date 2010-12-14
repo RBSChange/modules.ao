@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.document.preferences" lcid="fr_FR">
+  <key id="document-name">préférence</key>
+  <key id="edition-form-title">préférences du module Marchés Publics</key>
+  <key id="authrequiredtoviewaodetail">authentification requise</key>
+  <key id="authrequiredtoviewaodetail-help">authentification requise pour visualiser le détail des appels d'offre</key>
+  <key id="requiredforms">formulaires obligatoires</key>
+  <key id="requiredforms-help">listes des formulaires obligatoires</key>
+</i18n>

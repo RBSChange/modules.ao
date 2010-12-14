@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.frontoffice.ao" lcid="de_DE">
+  <key id="enddate">Abgabedatum</key>
+  <key id="endtime">Abgabezeit</key>
+  <key id="place">Abgabeort</key>
+</i18n>

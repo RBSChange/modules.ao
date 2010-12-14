@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.bo.statistics" lcid="fr_FR">
+  <key id="date">date de la consultation</key>
+  <key id="company">entreprise</key>
+  <key id="contact">contact</key>
+  <key id="statistics-media-title">statistiques de téléchargement des documents de l'appel d'offre</key>
+  <key id="statistics-ao-title">statistiques de visualisation de l'appel d'offre</key>
+</i18n>

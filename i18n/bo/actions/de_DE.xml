@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.bo.actions" lcid="de_DE">
+  <key id="create-preferences">Präferenzen neu</key>
+  <key id="create-theme">Thema neu</key>
+  <key id="create-business">Berufsfeld neu</key>
+  <key id="create-ao">Ausschreibung neu</key>
+  <key id="create-company">Firma neu</key>
+  <key id="create_">Neu...</key>
+  <key id="create2_">Neu...</key>
+  <key id="create-folderbusiness">Sachordner neu</key>
+  <key id="create-foldercompany">Firmenordner neu</key>
+  <key id="create-foldertheme">Themenordner neu</key>
+  <key id="view-ao-stats">Ausschreibung konsultieren</key>
+  <key id="view-stats">Statistiken ansehen...</key>
+  <key id="view-ao-media-stats">Ausschreibungsdokumente downloaden</key>
+  <key id="back-to-ao-list">Zurück zur Liste der Ausschreibungen</key>
+  <key id="export-companies-csv">Firmen in CSV exportieren</key>
+</i18n>

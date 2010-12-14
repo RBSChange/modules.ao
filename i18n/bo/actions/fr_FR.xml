@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.bo.actions" lcid="fr_FR">
+  <key id="create-preferences">Create preferences</key>
+  <key id="create-theme">créer un thème</key>
+  <key id="create-business">créer un secteur d'activité</key>
+  <key id="create-ao">créer un appel d'offre</key>
+  <key id="create-company">créer une entreprise</key>
+  <key id="create_">Créer...</key>
+  <key id="create2_">Créer...</key>
+  <key id="create-folderbusiness">Create folderbusiness</key>
+  <key id="create-foldercompany">Create foldercompany</key>
+  <key id="create-foldertheme">Create foldertheme</key>
+  <key id="view-ao-stats">consultation de l'appel d'offre</key>
+  <key id="view-stats">voir les statistiques...</key>
+  <key id="view-ao-media-stats">téléchargement des documents de l'appel d'offre</key>
+  <key id="back-to-ao-list">retour à la liste des appels d'offre</key>
+  <key id="export-companies-csv">exporter les entreprises en CSV</key>
+</i18n>

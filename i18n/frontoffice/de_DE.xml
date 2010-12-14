@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.frontoffice" lcid="de_DE">
+  <key id="all-themes">Alle Themen</key>
+  <key id="offer">Ausschreibungen</key>
+  <key id="seeoffer">Aktuelle Ausschreibungen ansehen</key>
+  <key id="attribution">Vergabebescheid</key>
+  <key id="seeattribution">Vergabebescheid ansehen</key>
+</i18n>

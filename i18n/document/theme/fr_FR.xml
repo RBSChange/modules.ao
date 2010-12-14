@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.document.theme" lcid="fr_FR">
+  <key id="document-name">thème</key>
+  <key id="edition-form-title">propriétés d'un thème</key>
+  <key id="label">libellé</key>
+  <key id="label-help">libellé du thème</key>
+</i18n>

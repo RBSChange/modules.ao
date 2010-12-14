@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.document.business" lcid="fr_FR">
+  <key id="document-name">secteur d'activité</key>
+  <key id="edition-form-title">propriétés du secteur d'activité</key>
+  <key id="label">libellé</key>
+  <key id="label-help">libellé de l'appel d'offre</key>
+</i18n>

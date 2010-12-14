@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.bo.general" lcid="fr_FR">
+  <key id="module-name">marchés publics</key>
+  <key id="tree-root-name">marchés publics</key>
+  <key id="system-folder-name">marchés publics</key>
+  <key id="award-notice-missing-date-warning">vous devez saisir une date pour l'avis d'attribution.</key>
+</i18n>

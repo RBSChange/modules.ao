@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.bo.general" lcid="de_DE">
+  <key id="module-name">öffentliche Aufträge</key>
+  <key id="tree-root-name">öffentliche Aufträge</key>
+  <key id="system-folder-name">öffentliche Aufträge</key>
+  <key id="award-notice-missing-date-warning">Sie müssen ein Datum für den Vergabebescheid setzen.</key>
+</i18n>

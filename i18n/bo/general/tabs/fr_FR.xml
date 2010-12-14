@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.bo.general.tabs" lcid="fr_FR">
+  <key id="general">général</key>
+  <key id="optionnal">optionnel</key>
+  <key id="award-notice">avis d'attribution</key>
+  <key id="company">entreprise</key>
+  <key id="system">système</key>
+  <key id="coordinates">coordonnées</key>
+  <key id="notifications">notifications</key>
+</i18n>

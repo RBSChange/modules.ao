@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.ao.frontoffice" lcid="fr_FR">
+  <key id="all-themes">tous les thèmes</key>
+  <key id="offer">appels d'offre</key>
+  <key id="seeoffer">voir les appels d'offre en cours</key>
+  <key id="attribution">avis d'attributions</key>
+  <key id="seeattribution">voir les avis d'attribution</key>
+  <key id="error-ao-illegal-access">vous n'avez pas la permission de visualiser cet appel d'offre.</key>
+</i18n>
